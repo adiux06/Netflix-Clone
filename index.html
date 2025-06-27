@@ -2,20 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="upgrad">
         <div class="main">
             <div class="box"></div>
+
             <div class="navbar">
                 <div class="nav">
-                    <img class="netlogo" src="/assets/images/Netflix_2015_logo.svg" alt="Netflix Logo">
-
+                    <img class="netlogo" src="/assets/images/Netflix_2015_logo.svg" alt="Netflix Logo" />
                     <div class="language-selector">
                         <select>
                             <option value="en" selected>English</option>
@@ -25,20 +27,52 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-wrapper">
 
-                
-                <span class="hero">
-                    Unlimited movies, TV shows and more
-                </span>
+            <div class="hero-wrapper">
+                <span class="hero">Unlimited movies, TV shows and more</span>
                 <span class="hero2">Starts at ₹149. Cancel at any time.</span>
                 <span class="hero3">Ready to watch? Enter your email to create or restart your membership.</span>
-                
+
+                <div class="email-form">
+                    <input type="email" minlength="5" maxlength="50" autocomplete="email" placeholder="Email address"
+                        class="email-input" />
+                    <button class="get-started">Get Started</button>
+                </div>
             </div>
 
-
+            <div class="gradient-base gradient"></div>
+            <div class="gradient-base gradient1">
+            </div>
         </div>
-    </div>
+        <span class="trending">Trending Now</span>
+        <div class="pops">
+            <div class="poster-card">
+                <img src="assets/images/Kapilsharma.webp" alt="Kapil Sharma" class="card-img">
+                <span class="poster-number">1</span>
+            </div>
+            <div class="poster-card">
+                <img src="assets/images/Squidgame.webp" alt="Squid Game" class="card-img">
+                <span class="poster-number">2</span>
+            </div>
+            <div class="poster-card">
+                <img src="assets/images/Jaat.webp" alt="Stranger Things" class="card-img">
+                <span class="poster-number">3</span>
+            </div>
+            <div class="poster-card">
+                <img src="assets/images/Raid2.webp" alt="Raid2" class="card-img">
+                <span class="poster-number">4</span>
+            </div>
+            <div class="poster-card">
+                <img src="assets/images/Hit.webp" alt="Hit" class="card-img">
+                <span class="poster-number">5</span>
+            </div>
+            <div class="poster-card">
+                <img src="assets/images/Retro.webp" alt="Retro" class="card-img">
+                <span class="poster-number">6</span>
+            </div>
+        </div>
+
+
 </body>
 
 </html>
